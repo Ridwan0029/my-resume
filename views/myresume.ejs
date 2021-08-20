@@ -1,12 +1,287 @@
 <%- include('partials/header') %>
-<h1>This is the myresume page</h1>
 
 
-<!-- <% data.forEach(function(datum){ %> -->
-    <li>
-        <%= datum.firstName %>
-    </li>
-<!-- <% }) %> -->
-<a href="/myresume/new">Modify Resume</a>
+
+<header>
+    <div class="wrapper">
+        <div class="name-desc">
+            <h1 class="name">Isaiah Abiodun</h1>
+            <p>An engineer with a strong technical background, the ability to work with the minimum of supervision and
+
+                the
+                thorough knowledge of digital transformation. Possessing self-discipline and a good team spirit,
+                deadline
+                oriented having the ability to organize and present complex solutions clearly.
+            </p>
+        </div>
+        <div class="profile-details">
+            <div class="address-email">
+
+                <address><i class="fad fa-location"></i>Old-Otta Road. Abule-Egba. Lagos 100276. Nigeria.</address>
+                <p><i class="far fa-phone-square"></i><span class="phone-number font-awesome"><a
+                            href="tel:+2348038513375">234(0)803-851-3375</a></span></p>
+                <p>
+                    <i class="far fa-envelope"></i><span class="email font-awesome"><a
+                            href="mailto:isaiah.abiodun@outlook.com">isaiah.abiodun@outlook.com</a></span>
+                </p>
+
+            </div>
+            <div class="social-links">
+                <p>
+                    <i class="fab fa-linkedin-in"></i><span class="linkedin font-awesome"><a
+                            href="https://linkedin.com/in/abisalde" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a></span>
+                </p>
+                <p>
+                    <i class="fab fa-twitter"></i><span class="font-awesome"><a href="https://twitter.com/abisalde"
+                            target="_blank" rel="noopener noreferrer">Twitter</a></span>
+                </p>
+                <p>
+                    <i class="fab fa-github"></i><span class="font-awesome"><a href="https://github.com/abisalde"
+                            target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                </p>
+
+                <p>
+                    <i class="fad fa-badge"></i><span class="font-awesome"><a
+                            href="https://www.credly.com/badges/1d422435-c3e9-46e5-894c-4ff002dcb45e" target="_blank"
+                            rel="noopener noreferrer">IT Support Badge</a></span>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main>
+    <div class="wrapper">
+        <div class="experience-education">
+            <section class="experience">
+                <h3>Experience</h3>
+
+                <div class="work-experience">
+                    <div class="heading-img">
+                        <img src="https://i.imgur.com/OcE4iVn.png" alt="hotels-ng-ingressive-for-good" />
+                        <h4>HNG Internship <span>&#8212; &nbsp; Lagos</span></h4>
+                    </div>
+                    <p>Software Engineer</p>
+                    <p class="date">08/2021 - </p>
+                    <ul class="desc">
+                        <li>Hand of experience building and developing scalable web applications with HTML, CSS,
+                            and
+                            JavaScript.
+                        </li>
+                        <li>Understanding of Agile web development process.</li>
+                        <li>Converting Figma UI/UX prototype designs into code.</li>
+                        <li>Collaboration with development team to implement complex user interfaces and API
+                            using
+                            version
+                            control.</li>
+                        <li>Day-to-day remote meetings and stand-up with team members on slack.</li>
+                    </ul>
+                </div>
+                <div class="work-experience">
+                    <div class="heading-img">
+                        <img src="https://i.imgur.com/BIhRNrP.jpg" alt="zuri-team-ingressive-for-good" />
+                        <h4>Zuri Team <span>&#8212; &nbsp; Lagos</span></h4>
+                    </div>
+
+                    <p>Frontend Developer</p>
+                    <p class="date">03/2021 - </p>
+                    <ul class="desc">
+                        <li>Hands-on experience in developing scalable web applications</li>
+                        <li>Turning Figma designs into HTML/JSX code</li>
+                    </ul>
+                </div>
+                <div class="work-experience">
+                    <div class="heading-img">
+                        <img src="https://i.imgur.com/azfWqDn.png" alt="critical-rescue-international" />
+                        <h4>Critical Rescue International <span>&#8212; &nbsp; Lagos</span> </h4>
+                    </div>
+                    <p>IT Support Officer</p>
+                    <p class="date">07/2020 - 12/2020</p>
+                    <ul class="desc">
+                        <li>Correspondence with external service providers, including Internet Service
+                            Providers, email
+                            service
+                            providers, hardware and software suppliers, etc.</li>
+                        <li>Installation, maintenance and provision of daily support both on hardware and EMR
+                            software.
+                        </li>
+                        <li>Negotiation of procurement price for IT-related needs with vendors.</li>
+                        <li>Receive, prioritize and resolve IT support requests. Purchase of IT hardware,
+                            software and
+                            other
+                            things
+                            associated with it.</li>
+                    </ul>
+                </div>
+                <div class="work-experience">
+                    <div class="heading-img">
+                        <img src="https://i.imgur.com/qWWDua1.jpg" alt="novo-health-africa" />
+                        <h4>Novo Health Africa Limited <span>&#8212; &nbsp; Lagos</span></h4>
+                    </div>
+                    <p>Systems Administrator</p>
+                    <p class="date">10/2019 - 07/2020</p>
+                    <ul class="desc">
+                        <li>Troubleshooting, Server Maintaining, IT devices including access points, router, and
+                            production
+                            server.
+                        </li>
+                        <li>Setting up user accounts, permissions and passwords.</li>
+                        <li>Installing and configuring computer hardware operating systems and applications.
+                        </li>
+                        <li>Installing hardware (servers, printers, computer workstations, etc.).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="education">
+                <h3>Education</h3>
+                <div class="education-desc">
+                    <h4>Coursera Online <span>&#8212; &nbsp; Google, California</span></h4>
+                    <p>IT Support Specialist</p>
+                    <p class="date">03/2021 - 05/2021</p>
+                    <ul class="desc">
+                        <li>Google IT Support Professional Certificate</li>
+                    </ul>
+                </div>
+                <div class="education-desc">
+                    <h4>Federal University of Technology Akure <span>&#8212; &nbsp; Ondo, Nigeria</span></h4>
+                    <p>Engineering</p>
+                    <p class="date">12/2007 - 11/2012</p>
+                    <ul class="desc">
+                        <li>Engineering: Food Processing, Post Harvest Operations</li>
+                    </ul>
+                </div>
+                <div class="education-desc">
+                    <h4>Lagos Baptist Secondary School <span>&#8212; &nbsp; Lagos, Nigeria</span></h4>
+                    <p>High School</p>
+                    <p class="date">10/1997 - 07/2003</p>
+                    <ul class="desc">
+                        <li>Senior School Leaving Certification</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="projects-skills-language">
+            <section class="projects">
+                <h3>Projects</h3>
+                <div class="project-listing">
+                    <h4><a class="project-links" href="https://dashboard-api-data.netlify.app/" target="_blank"
+                            rel="noopener noreferrer">Dashboard API</a></h4>
+                    <p class="project-desc">An Admin Dashboard for users tested with randomAPI</p>
+                </div>
+                <div class="project-listing">
+                    <h4><a class="project-links" href="https://todo-app-list-63681.web.app/" target="_blank"
+                            rel="noopener noreferrer">TODO
+                            App</a></h4>
+                    <p class="project-desc">A full CRUD App with Google Firebase and React in real-time</p>
+                </div>
+                <div class="project-listing">
+                    <h4><a class="project-links" href="https://ourwedding2020.netlify.app" target="_blank"
+                            rel="noopener noreferrer">Wedding
+                            Planner</a></h4>
+                    <p class="project-desc">A bootstrap template converted to React App</p>
+                </div>
+                <div class="project-listing">
+                    <h4><a class="project-links" href="https://abisalde.github.io/google_clone/" target="_blank"
+                            rel="noopener noreferrer">Google Search</a></h4>
+                    <p class="project-desc">Google search clone</p>
+                </div>
+                <div class="project-listing">
+                    <h4><a class="project-links" href="https://abisalde.github.io/Ear1-Challenge/" target="_blank"
+                            rel="noopener noreferrer">Ear1 Challenge</a></h4>
+                    <p class="project-desc">Frontend challenge for a social media built with HTML and CSS</p>
+                </div>
+            </section>
+            <section class="skills">
+                <h3>Skills</h3>
+                <div class="code">
+                    <h4>Programming/Computer Skills</h4>
+                    <ul class="skills-list">
+                        <li>MERN Stack</li>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>Linux Administration</li>
+                        <li>Git</li>
+                        <li>Networking</li>
+                        <li>Microsoft 365 Administartion</li>
+
+                        <li>GSuite Administration</li>
+                        <li>WordPress</li>
+                        <li>Bootstrap</li>
+                        <li>GatsbyJS</li>
+                        <li>ReactJS</li>
+                        <li>Exchange Server 2016</li>
+                        <li>Virtual Machines</li>
+                        <li>Active Directory</li>
+                        <li>IT security</li>
+                        <li>Troubleshooting</li>
+                        <li>Azure Active Directory</li>
+                </div>
+                <div class="strength">
+                    <h4>Strength</h4>
+                    <ul class="strength-list">
+                        <li>Team player</li>
+                        <li>Leadership</li>
+                        <li>Emotional Intelligence</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <h4>Language</h4>
+                    <ul class="lang-list">
+                        <li>Yoruba</li>
+                        <li>English</li>
+                        <li>Deustch</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="cert">
+                <h3>Certification</h3>
+                <div class="desc-cert">
+                    <p>Responsive Web Design Certification <a href="http://freecodecamp.org" target="_blank"
+                            rel="noopener noreferrer">(freecodecamp.org)</a></p>
+                    <ul class="cert-date">
+                        <li>January 2021</li>
+                    </ul>
+                </div>
+                <div class="desc-cert">
+                    <p>HTML, CSS, and JavaScript for Web Developers <a href="http://coursera.org" target="_blank"
+                            rel="noopener noreferrer">(coursera.org)</a></p>
+                    <ul class="cert-date">
+                        <li>October 2018</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="cert">
+                <h2>REVIEWS</h2>
+                <form action="/myresume" method="POST" >
+                    <input type="text" name="nameOne" placeholder="Enter your name" style="height: 2em; margin: 1rem 0;">
+                    <textarea name="nameTwo" id="" cols="50" rows="5" placeholder="Enter your comment" ></textarea>
+                    <button style="margin: 1rem 0;">Comment</button>
+                </form>
+                <div style=" height: max-content; width: max-content;">
+                    <% data.forEach(function(datum){ %>
+                        <div style="margin-bottom: 1rem;">
+                            <h3 style="font-size: medium;"><%= datum.firstName %></h3>
+                            <p><%= datum.lastName %></p>
+                        </div> 
+                    <% }) %> 
+               </div>
+            </section>
+
+
+        </div>
+    </div>
+</main>
+
+
+
+
+<!-- <a href="/myresume/new">Modify Resume</a> -->
 
 <%- include('partials/footer') %>
