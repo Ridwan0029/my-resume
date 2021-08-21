@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 //mongoose.connect('mongodb://localhost/my-resume');
-mongoose.connect('mongodb+srv://Ridwan:Adrenalin0029@cluster0.t86kn.mongodb.net/clusters?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://Ridwan:Adrenalin0029@cluster0.t86kn.mongodb.net/test?retryWrites=true&w=majority');
 //
 // mongodb+srv://Ridwan:Adrenalin0029@cluster0.t86kn.mongodb.net/clusters?retryWrites=true&w=majority
 app.use(bodyParser.urlencoded({extended: true}));
