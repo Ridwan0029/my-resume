@@ -5,7 +5,9 @@ var bodyParser = require('body-parser');
 
 const mongoose = require('mongoose')
 
-const url = `mongodb+srv://ridwan:Adrenalin0029@cluster0.t86kn.mongodb.net/test?retryWrites=true&w=majority`;
+// const url = `mongodb+srv://ridwan:Adrenalin0029@cluster0.t86kn.mongodb.net/test?retryWrites=true&w=majority`;
+const url = `mongodb+srv://ridwan:Adrenalin0029@cluster0.t86kn.mongodb.net/?retryWrites=true&w=majority`;
+
 
 const connectionParams={
     useNewUrlParser: true,
